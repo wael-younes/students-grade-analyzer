@@ -1,25 +1,3 @@
-# def display_student_summary(numbers : int):
-#     students = [[], []] 
-#     for number in range(numbers):
-#         name = input("Name of student number " + str(number + 1) + ": ")
-#         grade = input("grade of student number " + str(number + 1) + ": ")
-#         students[0].append(name)
-#         students[1].append(grade)
-
-#     print("\nSummary:")
-#     for number in range(numbers):
-#         print("Student", number + 1, ":", students[number][0], "- Grade:", students[number][1])
-#     return students
-    
-# num = int(input("select the number of students "))
-# students=display_student_summary(num)
-# print(students[0][0])
-# print(students[0][1])
-# print(students[1][0])
-# print(students[1][1])
-# print(students[0][2])
-# print(students[1][2])
-
 
 def display_student_summary(numbers : int):
     names=[]
